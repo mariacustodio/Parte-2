@@ -1,0 +1,108 @@
+/* Para título */
+h2 {
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: 56px;
+    color: white;
+    text-align: center;
+    text-shadow: -3px 2px 0px #31C900, -4px 4px 0px red;
+}
+
+/* Para fondo */
+body {
+    background: linear-gradient(to bottom, #000000 20%, #0F0364 80%);
+}
+
+/* Para elementos de lista */
+.list-group-item {
+    background-color: #82ff58;
+    border: 2px solid #ff0000;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+}
+
+/* Al pasar el ratón */
+.list-group-item:hover {
+    background-color: #f0f0f0;
+}
+
+/* Para la sombra de la tarjeta */
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Para el texto de los meses */
+.month {
+    font-weight: bold;
+}
+
+/* Para las actividades */
+.activities {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Para el texto dentro de las actividades */
+.activities p {
+    margin: 10px 0;
+}
+
+/* Para la animación */
+.float-right {
+    transition: transform 0.3s ease;
+}
+
+/* Para la Rotación */
+.rotate {
+    transform: rotate(180deg);
+}
+
+/* Estilos para los botones de los meses */
+.btn-mayo,
+.btn-junio,
+.btn-julio,
+.btn-agosto,
+.btn-septiembre,
+.btn-octubre,
+.btn-noviembre {
+    background-color: #82ff58;
+    color: #fff;
+    border: 2px solid #ff0000;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Al pasar el ratón sobre los botones de los meses */
+.btn-mayo:hover,
+.btn-junio:hover,
+.btn-julio:hover,
+.btn-agosto:hover,
+.btn-septiembre:hover,
+.btn-octubre:hover,
+.btn-noviembre:hover {
+    background-color: #64d43b;
+}
+
+/* Para el texto dentro de las actividades en los botones de los meses */
+.list-group .collapse .card {
+    color: white;
+    text-align: center;
+    background-color: #98ff98;
+    border: 1px solid #839483;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.list-group .collapse .card p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: #333333;
+    text-shadow: -3px 2px 0px #4682B4;
+}
