@@ -32,8 +32,8 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Para el texto de los meses */
-.month {
+/* Para el texto de los deportes */
+.sport {
     font-weight: bold;
 }
 
@@ -46,7 +46,34 @@ body {
 
 /* Para el texto dentro de las actividades */
 .activities p {
+    display: flex;
+    align-items: center;
     margin: 10px 0;
+    color: black;
+    background-color: #98ff98;
+    border: 1px solid #839483;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: -3px 2px 0px #4682B4;
+}
+
+/* Para la fecha y hora */
+.date-time {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: black;
+    width: 150px;
+}
+
+/* Para los nombres de los equipos */
+.teams {
+    flex-grow: 1;
+    text-align: center;
+    color: black;
 }
 
 /* Para la animación */
@@ -59,14 +86,11 @@ body {
     transform: rotate(180deg);
 }
 
-/* Estilos para los botones de los meses */
-.btn-mayo,
-.btn-junio,
-.btn-julio,
-.btn-agosto,
-.btn-septiembre,
-.btn-octubre,
-.btn-noviembre {
+/* Estilos para los botones de los deportes */
+.btn-futbol,
+.btn-basket,
+.btn-futsal,
+.btn-rally {
     background-color: #82ff58;
     color: #fff;
     border: 2px solid #ff0000;
@@ -76,33 +100,11 @@ body {
     transition: background-color 0.3s ease;
 }
 
-/* Al pasar el ratón sobre los botones de los meses */
-.btn-mayo:hover,
-.btn-junio:hover,
-.btn-julio:hover,
-.btn-agosto:hover,
-.btn-septiembre:hover,
-.btn-octubre:hover,
-.btn-noviembre:hover {
+/* Al pasar el ratón sobre los botones de los deportes */
+.btn-futbol:hover,
+.btn-basket:hover,
+.btn-futsal:hover,
+.btn-rally:hover {
     background-color: #64d43b;
-}
-
-/* Para el texto dentro de las actividades en los botones de los meses */
-.list-group .collapse .card {
-    color: white;
-    text-align: center;
-    background-color: #98ff98;
-    border: 1px solid #839483;
-    border-radius: 5px;
-    padding: 10px;
-    margin-top: 10px;
-}
-
-.list-group .collapse .card p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bold;
-    margin-bottom: 10px;
-    font-size: 25px;
-    color: #333333;
-    text-shadow: -3px 2px 0px #4682B4;
+    color: black; 
 }
